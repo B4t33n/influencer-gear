@@ -103,6 +103,40 @@ ul, li, a{
     align-items: center;
 }
 
+/* popular collection style */
+.collection{
+    margin-top: 90px;
+}
+.collection-header{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+    margin-bottom: 30px;
+}
+
+.popular-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    align-items: center;
+    margin-left: 50px;
+}
+.popular-item-card{
+    height: 25rem;
+    width: 19rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}    
+
+.popular-item-card{
+    margin: 20px 0;
+}
+
+
+
 
 
 
@@ -150,6 +184,7 @@ ul, li, a{
     .brand{
         border: none;
         width: 100%;
+        margin-left: 10px;
     }
 
     .brand-site{
@@ -160,5 +195,14 @@ ul, li, a{
 
     .brand-site>img{
         height: 24px;
+    }
+
+    .collection{
+        width: 100%;
+    }
+
+    .popular-item{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 15px;
     }
 }

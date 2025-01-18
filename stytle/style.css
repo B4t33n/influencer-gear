@@ -89,6 +89,20 @@ ul, li, a{
     background: url(../images/Circle\ design.svg);
 }
 
+/* brand style */
+
+.brand{
+    margin-top: 150px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.76);
+    padding-bottom: 20px;
+}
+
+.brand-site{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+}
+
 
 
 
@@ -127,5 +141,24 @@ ul, li, a{
         font-size: large;
         line-height: 20px;
         margin: 18px 0;
+    }
+    .banner-image>img{
+        height: 350px;
+        text-align: center;
+    }
+
+    .brand{
+        border: none;
+        width: 100%;
+    }
+
+    .brand-site{
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+        align-items: center;
+    }
+
+    .brand-site>img{
+        height: 24px;
     }
 }
